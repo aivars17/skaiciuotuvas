@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skaičiuotuvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+	<h1 class="col">JavaScript skaičiuotuvas</h1>
+	</div>
+	<div class="row">
+		<div class="col">
+		<input  class="form-control col-2" type="text" id="arg1" placeholder="Rims">
+		<input  class="form-control col-2" type="text" id="arg2" placeholder="Tyre">
+		<input  class="form-control col-2" type="text" id="arg3" placeholder="Arc">
+		<button onclick="add()">Add</button>
+		<button onclick="del()">Delete</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="col" id="result">none</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+		<table class="table">
+		  <thead>
+		    <tr>
+		      <th>Rims</th>
+		      <th>Tyre</th>
+		      <th>Result</th>
+		      <th>Arc</th>
+		    </tr>
+		  </thead>
+		  <tbody id="tr">
+		    
+		  </tbody>
+		</table>
+	</div>
+	</div>
+
+</div>
+<script src="jss.js"></script>
+</body>
+
+</html>
